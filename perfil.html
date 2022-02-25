@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FREE FAT</title>
+    <link rel="stylesheet" href="perfil.css">
+    <link rel="stylesheet" href="fonts/style.css">
+</head>
+<body>
+<nav id="navbar" class="nav">
+    <img id="logo" src="logo.png">
+    <ul class="nav-list">
+        <li>
+        <a href="#pordefinir">Inicio</a>
+        </li>
+        <li>
+        <a href="#pordefinir">Perfil</a>
+        </li>
+        <li>
+        <a href="#pordefinir">Rutinas</a>
+        </li>
+        </ul>
+</nav>
+
+<div id="all">
+<aside id="foto">
+<script src="https://kit.fontawesome.com/297cd5b470.js" crossorigin="anonymous"></script>
+<h4 id="fotojpg"></span>Agrega una foto png o jpg.</h4>
+<h1><span class="fa-plus"></span></h1>
+<input type="file" id="archivo"></input>
+</aside>
+
+<form id="datos">
+<div id="perfilact">
+<label id="nombre1" for="nombre">Nombre de usuario</label>
+<input type="text" name="nombre" id="nombre" class="formulario" placeholder="Ingresa tu nombre" required/>
+</div>
+
+<div id="perfilact">
+<p>País</p>
+      <select id="dropdown" name="pais" class="formulario" required>
+        <option disabled selected value>País</option>
+        <option value="pais">Ecuador</option>
+        <option value="pais">Argentina</option>
+        <option value="pais">Colombia</option>
+        <option value="pais">Perú</option>
+        <option value="pais">Costa Rica</option>
+        <option value="pais">España</option>
+        <option value="pais">Puerto Rico</option>
+        <option value="pais">Bolivia</option>
+        <option value="pais">Uruguay</option>
+        <option value="pais">Paraguay</option>
+        <option value="pais">Chile</option>
+        <option value="pais">Venezuela</option>
+        <option value="pais">Guayana</option>
+        <option value="pais">Guayana Francesa</option>
+        <option value="pais">Panamá</option>
+        <option value="pais">Nicaragua</option>
+        <option value="pais">Honduras</option>
+        <option value="pais">El Salvador</option>
+        <option value="pais">Gautemala</option>
+        <option value="pais">Belice</option>
+        <option value="pais">México</option>
+        <option value="pais">Estador Unidos</option>
+        <option value="pais">Canada</option>
+        <option value="pais">Cuba</option>
+        <option value="pais">Haití</option>
+        <option value="pais">Republica Dominicana</option>
+      </select>
+</div>
+
+<div id="perfilact">
+    <p id="g2">Genero</p>
+        <select id="dropdown2" name="genero" class="formulario" required>
+            <option value="pais">Masculino</option>
+            <option value="pais">Femenino</option>
+        </select>
+
+</div>
+ <div id="perfilact">
+    <label id="peso1" for="peso">Peso</label>
+    <input type="number" name="peso" id="peso" class="formulario" placeholder="0.0kg" required/>
+</div>
+
+<div id="perfilact">
+    <label id="altura1" for="edge">Edad</label>
+    <input type="number" name="edad" id="altura" min="15" max="60" class="formulario" placeholder="Edad" required/>
+</div>
+
+</form>
+
+<textarea
+        id="describete"
+        class="des"
+        name="comment"
+        placeholder="Describete aquí"></textarea>
+
+<h1>Privado</h1>
+<label id="correo1" for="edge">Correo electronico</label>
+    <input type="text" name="correo" id="correo" min="15" max="60" class="formulario" placeholder="Correo electronico" required/>
+
+    <label id="cell1" for="edge">Número de telefono</label>
+    <input type="number" name="correo" id="cell" min="15" max="60" class="formulario" placeholder="Número de telefono" required/>
+
+    <label id="cores1" for="edge">Correo de respaldo</label>
+    <input type="text" name="correo" id="cores" min="15" max="60" class="formulario" placeholder="Correo de respaldo" required/>
+    
+    <input type="submit" name="correo" id="guardar" min="15" max="60" class="formulario" placeholder="Guardar" required/>    
+</body>
+</html>
