@@ -1,0 +1,556 @@
+#fondo{
+    width: 100%;
+    height: 700px;
+    background-image:linear-gradient(
+        50deg,
+        rgba(253, 253, 253, 0.9),
+        rgba(255, 255, 255, 0.9) 
+      ),
+    url(https://www.wikihow.com/images_en/thumb/e/e4/Do-Dips-Step-2.jpeg/v4-460px-Do-Dips-Step-2.jpeg);
+}
+#titulo{
+    font-family: Lucida Calligraphy;
+    color: write;
+    font-size: 30px; 
+    margin-left: 420px;
+    margin-top: 40px;
+}
+.uno{
+    width: 70px;
+    height: 70px;
+}
+.dos{
+    width: 20px;
+    height: 20px;
+}
+#imagen1{
+    width: 300px;
+    height: 100px;
+    float: right;
+    display: block;
+    margin-top: 20px;
+    margin-right: 900px;
+    position: relative;
+}
+#imagen2{
+    width: 300px;
+    height: 100px;
+    float: right;
+    display: block;
+    margin-top: -20px;
+    margin-right: 850px;
+    position: relative;
+}
+#linea{
+    box-shadow: 0px -1px 10px 4px ;
+    color: #35858B;
+    margin-top: -10px;
+}
+#linea2{
+    box-shadow: 0px -1px 10px 4px ;
+    color: #35858B;
+    margin-top: 30px;
+}
+#rutina{
+    font-family: Lucida Calligraphy;
+    color: write;
+    font-size: 20px;
+    position: relative;
+    float: right; 
+    margin-top: -0;   
+    margin-right:-80px;
+}
+#saltar{
+    background-color: #ececec;
+    width: 110px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Lucida Calligraphy;
+    font-size: 13px;
+    float: right;
+    margin-right: -100px;
+    margin-top: 30px;
+}
+#s{
+    background-color: #AEFEFF;
+    width: 180px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: MS PGothic;
+    font-size: 15px;
+    float: right;
+    margin-right: -150px;
+    margin-top: 75px;
+    padding: 15px;
+    color: black;
+}
+#f{
+    background-color: #ececec;
+    border-top: -50px;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Lucida Calligraphy;
+    font-size: 13px;
+    float: right;
+    margin-top: -115px;
+    margin-right: 700px;
+}
+#d{
+    background-color: #AEFEFF;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: MS PGothic;
+    font-size: 15px;
+    float: right;
+    margin-top: -70px;
+    margin-right: 660px;
+    padding: 15px;
+    color: black;
+}
+#t{
+    background-color: #ececec;
+    border-top: -50px;
+    width: 150px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Lucida Calligraphy;
+    font-size: 15px;
+    float: right;
+    margin-top: -115px;
+    margin-right: -500px;
+}
+#r{
+    background-color: #AEFEFF;
+    border-top: -50px;
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: MS PGothic;
+    font-size: 15px;
+    float: right;
+    margin-top: -65px;
+    margin-right: -540px;
+    color: black;
+    padding: 10px;
+}
+.cuerda{
+    width: 150px;
+    float: right;
+    margin-right: 170px;
+}
+.flexiones{
+    width: 250px;
+    float: right;
+    margin-top: -180px;
+    margin-right: 640px;
+}
+.sentadillas{
+    width: 210px;
+    float: right;
+    margin-top: -210px;
+    margin-right: 310px;
+}
+#realizado{
+    width: 200px;
+    float: right;
+    margin-right: -400px;
+    margin-top: -150px;
+}
+#a{
+    float: right;
+    font-family: Lucida Calligraphy;
+    margin-right: -450px;
+    margin-top:-165px;
+    background-color: #AEFEFF;
+    color: black;
+    text-align: center;
+    width: 100px;
+   border-radius: 20px;
+   box-shadow: 0px -1px 10px 1px #AEFEFF;
+   font-size: 15px;
+   padding: 15px;
+}
+#reloj{
+    width: 170px;
+    height: 50px;
+    float: right;
+    margin-top: -560px;
+    margin-right: 50px;
+    box-shadow: 0px -1px 10px 6px #35858B;
+    text-align: center;
+    background-color: white ;
+}
+#helado{
+    float: right;
+    width: 70px;
+    margin-right: 1150px;
+}
+#flecha2{
+    float: right;
+    width: 30px;
+    margin-right: 1150px;
+}
+#heladodos{
+    float: right;
+}
+#lugar{
+    float: right;
+    font-family: Lucida Calligraphy ;
+    font-size: 15px;
+    background-color: #ececec;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 950px;
+}
+#minutos{
+    font-family: MS PGothic;
+    background-color: #AEFEFF;
+    border-radius: 20px;
+    padding: 15px;
+    width: 170px;
+    text-align: center;
+    margin-top: 70px;
+    margin-right: -180px;
+    float: right;
+}
+#triceps{
+    float: right;
+    font-family: Lucida Calligraphy;
+    font-size: 15px;
+    background-color: #ececec;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 650px;
+    margin-top: -130px;
+}
+#cada{
+    float: right;
+    font-family:  MS PGothic;
+    font-size: 15px;
+    background-color: #AEFEFF;
+    padding: 15px;
+    border-radius: 20px;
+    margin-right: 500px;
+    margin-top: -70px;
+}
+#zancadas{
+    float: right;
+    font-size: 15px;
+    background-color: #ececec;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: Lucida Calligraphy;
+    margin-top: -130px;
+    margin-right: 200px;
+}
+#pierna{
+    float: right;
+    font-size: 15px;
+    font-family: MG PGothic;
+    background-color: #AEFEFF;
+    padding: 15px;
+    border-radius: 20px;
+    margin-right: 100px;
+    margin-top: -70px;
+}
+.pnguno{
+    float: right;
+    width: 170px;
+    margin-right: 950px;
+}   
+.pngdos{
+    float: right;
+    width: 240px;
+    margin-right: 550px;
+    margin-top: -200px;
+}
+.pngtres{
+    float: right;
+    width: 250px;
+    margin-top: -250px;
+    margin-right: 150px;
+}
+#botondos{
+    float: right;
+    width: 800px;
+    margin-top:-500px ;
+    margin-right: -200px;
+}
+#ado{
+    float: right;
+    font-family: Lucida Calligraphy;
+    font-size: 15px;
+    background-color: #AEFEFF;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: -510px;
+    margin-right: 60px;
+    box-shadow: 0px -1px 10px 1px #AEFEFF;
+}
+#lineacuatro{
+    width: 1250px;
+}
+#chuleta{
+    width: 150px;
+    float: right;
+    margin-right: 1100px;
+}
+#crd{
+    width: 30px;
+    float: right;
+    margin-right: 1100px;
+    margin-top: -25px ;
+}
+#comba{
+    float: right;
+    font-family: Lucida Calligraphy;
+    font-size: 15px;
+    background-color: #ececec;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 970px;
+}
+#cardio{
+    float: right;
+    font-family: MS PGothic;
+    font-size: 15px;
+    background-color: #AEFEFF;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 900px;
+    margin-top: -0px;
+}
+#curl{
+    float: right;
+    font-family: Lucida Calligraphy;
+    font-size: 15px;
+    background-color: #ececec;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 650px;
+    margin-top: -120px;
+}
+#una{
+    float: right;
+    font-size: 15px;
+    font-family: MS PGothic;
+    background-color: #AEFEFF;
+    padding: 15px;
+    border-radius: 20px;
+    margin-right: 550px;
+    margin-top: -65px;
+}
+#abdominales{
+    float: right;
+    font-size: 15px;
+    font-family: Lucida Calligraphy;
+    background-color: #ececec;
+    padding: 10px;
+    border-radius: 20px;
+    margin-right: 300px;
+    margin-top: -120px;
+}
+#series{
+    float: right;
+    font-size: 15px;
+    font-family: MS PGothic;
+    background-color: #AEFEFF;
+    padding: 15px;
+    border-radius: 20px;
+    margin-right: 150px;
+    margin-top: -65px;
+}
+#pngcinco{
+    float: right;
+    width: 250px;
+    margin-right: 920px;
+}
+#pngseis{
+    float: right;
+    width:250px;
+    margin-right:570px ;
+    margin-top: -250px;
+}
+#pngsiete{
+    float: right;
+    margin-top: -250px;
+    width: 340px;
+    margin-right: 150px;
+}
+#botoncuatro{
+    float: right;
+    margin-right: 150px;
+    margin-top: -450px;
+}
+#li{
+    float: right;
+    margin-top: -460px; 
+    background-color: #AEFEFF;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+    font-family: Lucida Calligraphy;
+    margin-right:  40px; 
+}
+#division{
+    width: 1250px;
+}
+#pizza{
+    width: 120px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 1100px;
+}
+#wn{
+    float: right;
+    width: 35px;
+    margin-top: 0px;
+    margin-right: 1120px;
+}
+#elevaciones{
+    float: right;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: Lucida Calligraphy;
+    background-color: #ececec;
+    margin-right: 800px;
+}
+#hacer{
+    float: right;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #AEFEFF;
+    font-family: MS PGothic;
+    margin-right: 790px;
+    margin-top: -0px;
+}
+#plancha{
+    float: right;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #ececec;
+    font-family: Lucida Calligraphy;
+    margin-right: 500px;
+    margin-top: -120px;
+}
+#puedes{
+    float: right;
+    font-size: 15px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #AEFEFF;
+    margin-top: -60px;
+    margin-right: 350px;
+}
+#elevacion{
+    width: 250px;
+    margin-right: 800px;
+    float: right;
+}
+#pl{
+    width: 250px;
+    float: right;
+    margin-right: 350px;
+    margin-top: -200px;
+}
+#visto{
+    float: right;
+    margin-right: -420px;
+    margin-top: -400px;
+}
+#od{
+    float: right;
+    margin-right: -530px;
+    margin-top: -408px;
+    font-family: Lucida Calligraphy;
+    font-size: 15px;
+    background-color: #AEFEFF;
+    border-radius: 20px;
+    padding: 10px;
+}
+#lineacinco{
+    width: 1250px;
+}
+#salchi{
+    width: 150px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 1080px;
+}
+#wn{
+    width: 40px;
+    float: right;
+    margin-right:1080px ;
+}
+#lung{
+    float: right;
+    font-size: 15px;
+    background-color: #ececec;
+    border-radius: 20px;
+    font-family: Lucida Calligraphy;
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 1000px;
+}
+#por{
+    float: right;
+    margin-top: -0px;
+    margin-right: 900px;
+    background-color: #AEFEFF;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+    font-family: MG PGothic;
+}
+#push{
+    float: right;
+    margin-top: -110px;
+    margin-right: 500px;
+    background-color: #ececec;
+    font-size:15px;
+    font-family: Lucida Calligraphy;
+    padding: 10px;
+    border-radius: 20px;
+}
+#diez{
+    float: right;
+    background-color: #AEFEFF;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 15px;
+    font-family:  MG PGothic;
+    margin-top: -60px;
+    margin-right: 350px;
+}
+#penege{
+    float: right;
+    width: 250px;
+    margin-right: 900px;
+}
+#penegedos{
+    float: right;
+    width: 250px;
+    margin-right: 400px;
+    margin-top: -200px;
+}
+#vistodos{
+    float: right;
+    margin-right: 180px;
+    margin-top: -450px;
+}
+#zz{
+    float: right;
+    margin-right: 70px;
+    margin-top: -458px;
+    background-color: #AEFEFF;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 10px;
+    font-family: Lucida Calligraphy;
+}
