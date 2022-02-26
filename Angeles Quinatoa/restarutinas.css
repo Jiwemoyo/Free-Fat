@@ -1,0 +1,116 @@
+#navbaaar{
+
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #072227;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+      
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+}
+
+@media (max-width: 0em) {
+    .nav {
+      justify-content: center;
+    }
+  
+    .nav-list {
+      margin: 0 1rem;
+    }
+  }
+  
+  .nav-list a {
+    display: block;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    width: 15vw;
+    font-family: Lucida Calligraphy;
+    text-align: center;
+  }
+  
+  .nav-list a:hover {
+    background: #4FBDBA
+
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+      text-decoration: none;
+      width: 100px
+  }
+
+  #logo {
+      margin-right: 450px;
+      width: 125px;
+      height: 65px;
+      margin-top: 10px;
+  }
+  #titulo {
+      float: right;
+      font-size: 40px;
+      font-family: Lucida Calligraphy;
+      color: #35858B ;
+     margin-top: 100px;
+     margin-right: 450px;  
+  }
+  #parrafo{
+    font-size: 15px;
+    float: right;
+    font-family: MG PGothic;
+    margin-top: -20px; 
+    margin-right:  330px; 
+    text-align: center;
+  }
+  #frase{
+      float: right;
+      font-size: 10px;
+      font-family: Lucida Calligraphy;
+      text-align: center;
+      margin-right: 500px;
+      margin-top: -10px;
+      color: #4FBDBA;
+  }
+  #uno{
+      float: right;
+      font-size: 15px;
+      font-family: Lucida Calligraphy;
+      background-color: #35858B;
+      border-radius: 50px;
+      padding: 10px;
+      color: white;
+      margin-top: 60px;
+      margin-right: 600px;
+  }
+  #dos{
+      float: right;
+      font-size: 13px;
+      font-family: MG PGothic;
+      background-color: #4FBDBA;
+      text-align: center;
+      border-radius: 50px;
+      padding: 15px;
+      margin-right: 550px;
+  }
+  #tres{
+      float: right;
+      font-size: 13px;
+      font-family: MG PGothic;
+      background-color: #4FBDBA;
+      text-align: center;
+      border-radius: 50px;
+      margin-right: 500px;
+      padding: 15px;
+
+  }
