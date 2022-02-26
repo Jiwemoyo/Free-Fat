@@ -63,22 +63,22 @@
       font-family: Lucida Calligraphy;
       color: #35858B ;
      margin-top: 100px;
-     margin-right: 450px;  
+     margin-right: 445px;  
   }
   #parrafo{
-    font-size: 15px;
+    font-size: 17px;
     float: right;
-    font-family: MG PGothic;
+    font-family: MS PGothic;
     margin-top: -20px; 
-    margin-right:  330px; 
+    margin-right:  280px; 
     text-align: center;
   }
   #frase{
       float: right;
-      font-size: 10px;
+      font-size: 14px;
       font-family: Lucida Calligraphy;
       text-align: center;
-      margin-right: 500px;
+      margin-right: 450px;
       margin-top: -10px;
       color: #4FBDBA;
   }
@@ -91,11 +91,11 @@
       padding: 10px;
       color: white;
       margin-top: 60px;
-      margin-right: 600px;
+      margin-right: 650px;
   }
   #dos{
       float: right;
-      font-size: 13px;
+      font-size: 15px;
       font-family: MG PGothic;
       background-color: #4FBDBA;
       text-align: center;
@@ -105,12 +105,37 @@
   }
   #tres{
       float: right;
-      font-size: 13px;
+      font-size: 15px;
       font-family: MG PGothic;
       background-color: #4FBDBA;
       text-align: center;
       border-radius: 50px;
       margin-right: 500px;
       padding: 15px;
-
   }
+  #cuadrito{
+    width: 350px; 
+    float: right;
+    margin-right: 50px;
+    margin-top: -330px;
+    text-align: center;  
+}
+#calorias{
+    font-family: Lucida Calligraphy;
+    color: #35858B;
+}
+#linea{
+    box-shadow: 0px -1px 10px 5px #35858B ;
+}
+#imagen{
+    width: 400px;
+    float: right;
+    margin-right:700px;
+    margin-top: 50px;
+}
+#cinco{
+    width: 400px ;
+    float: right;
+    margin-right: 50px;
+    margin-top: -350px;
+}
