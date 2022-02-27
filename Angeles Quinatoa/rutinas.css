@@ -7,13 +7,16 @@
         rgba(255, 255, 255, 0.9) 
       ),
     url(https://www.wikihow.com/images_en/thumb/e/e4/Do-Dips-Step-2.jpeg/v4-460px-Do-Dips-Step-2.jpeg);
+    margin-top: 130px;
 }
 #titulo{
     font-family: Lucida Calligraphy;
     color: write;
-    font-size: 30px; 
-    margin-left: 420px;
+    font-size: 50px; 
+    margin-left: 320px;
     margin-top: 40px;
+    color: #072227;
+    
 }
 .uno{
     width: 70px;
@@ -41,16 +44,7 @@
     margin-right: 850px;
     position: relative;
 }
-#linea{
-    box-shadow: 0px -1px 10px 4px ;
-    color: #35858B;
-    margin-top: -10px;
-}
-#linea2{
-    box-shadow: 0px -1px 10px 4px ;
-    color: #35858B;
-    margin-top: 30px;
-}
+
 #rutina{
     font-family: Lucida Calligraphy;
     color: write;
@@ -72,7 +66,7 @@
     margin-top: 30px;
 }
 #s{
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     width: 180px;
     border-radius: 20px;
     text-align: center;
@@ -98,7 +92,7 @@
     margin-right: 700px;
 }
 #d{
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     width: 200px;
     border-radius: 20px;
     text-align: center;
@@ -123,7 +117,7 @@
     margin-right: -500px;
 }
 #r{
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     border-top: -50px;
     width: 200px;
     border-radius: 20px;
@@ -164,12 +158,12 @@
     font-family: Lucida Calligraphy;
     margin-right: -450px;
     margin-top:-165px;
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     color: black;
     text-align: center;
     width: 100px;
    border-radius: 20px;
-   box-shadow: 0px -1px 10px 1px #AEFEFF;
+   box-shadow: 0px -1px 10px 1px #4FBDBA;
    font-size: 15px;
    padding: 15px;
 }
@@ -207,7 +201,7 @@
 }
 #minutos{
     font-family: MS PGothic;
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     border-radius: 20px;
     padding: 15px;
     width: 170px;
@@ -230,7 +224,7 @@
     float: right;
     font-family:  MS PGothic;
     font-size: 15px;
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     padding: 15px;
     border-radius: 20px;
     margin-right: 500px;
@@ -250,7 +244,7 @@
     float: right;
     font-size: 15px;
     font-family: MG PGothic;
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     padding: 15px;
     border-radius: 20px;
     margin-right: 100px;
@@ -283,12 +277,12 @@
     float: right;
     font-family: Lucida Calligraphy;
     font-size: 15px;
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     padding: 15px;
     border-radius: 20px;
     margin-top: -510px;
     margin-right: 60px;
-    box-shadow: 0px -1px 10px 1px #AEFEFF;
+    box-shadow: 0px -1px 10px 1px #4FBDBA;
 }
 #lineacuatro{
     width: 1250px;
@@ -317,7 +311,7 @@
     float: right;
     font-family: MS PGothic;
     font-size: 15px;
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     padding: 20px;
     border-radius: 20px;
     margin-right: 900px;
@@ -337,7 +331,7 @@
     float: right;
     font-size: 15px;
     font-family: MS PGothic;
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     padding: 15px;
     border-radius: 20px;
     margin-right: 550px;
@@ -357,7 +351,7 @@
     float: right;
     font-size: 15px;
     font-family: MS PGothic;
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     padding: 15px;
     border-radius: 20px;
     margin-right: 150px;
@@ -388,7 +382,7 @@
 #li{
     float: right;
     margin-top: -460px; 
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     border-radius: 20px;
     font-size: 15px;
     padding: 10px;
@@ -424,7 +418,7 @@
     font-size: 15px;
     padding: 15px;
     border-radius: 20px;
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     font-family: MS PGothic;
     margin-right: 790px;
     margin-top: -0px;
@@ -444,7 +438,7 @@
     font-size: 15px;
     padding: 15px;
     border-radius: 20px;
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     margin-top: -60px;
     margin-right: 350px;
 }
@@ -470,7 +464,7 @@
     margin-top: -408px;
     font-family: Lucida Calligraphy;
     font-size: 15px;
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     border-radius: 20px;
     padding: 10px;
 }
@@ -502,7 +496,7 @@
     float: right;
     margin-top: -0px;
     margin-right: 900px;
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     border-radius: 20px;
     padding: 15px;
     font-size: 15px;
@@ -520,7 +514,7 @@
 }
 #diez{
     float: right;
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     border-radius: 20px;
     font-size: 15px;
     padding: 15px;
@@ -548,9 +542,184 @@
     float: right;
     margin-right: 70px;
     margin-top: -458px;
-    background-color: #AEFEFF;
+    background-color: #4FBDBA;
     border-radius: 20px;
     font-size: 15px;
     padding: 10px;
     font-family: Lucida Calligraphy;
+}
+#navbaaar{
+
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #072227;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+      
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+}
+
+@media (max-width: 0em) {
+    .nav {
+      justify-content: center;
+    }
+  
+    .nav-list {
+      margin: 0 1rem;
+    }
+  }
+  
+  .nav-list a {
+    display: block;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    width: 15vw;
+    font-family: Lucida Calligraphy;
+    text-align: center;
+  }
+  
+  .nav-list a:hover {
+    background: #4FBDBA
+
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+      text-decoration: none;
+      width: 100px
+  }
+
+  #logo {
+      margin-right: 450px;
+      width: 125px;
+      height: 65px;
+      margin-top: 10px;
+  }
+  .piedepagina .grupo1{
+    width: 1415px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+    background-color: #072227;
+  }
+  .piedepagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .piedepagina .grupo1 .box figure img{
+    width: 250px;
+  }
+  .piedepagina .grupo1 .box h2{
+    color: #35858B;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .piedepagina .grupo1 .box p{
+    color: #4FBDBA;
+    margin-bottom: 10px;
+  }
+  .piedepagina .grupo1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #35858B;
+    margin-right: 10px;
+    background-color:#4FBDBA ;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 300ms ease;
+  }
+  .piedepagina .grupo1 .red-social a:hover{
+    color: #072227;
+  }
+  .cuerda:hover{
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+  }
+  .flexiones:hover{
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+  }
+  .sentadillas:hover{
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+  }
+  .pnguno:hover{
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+  }
+  .pngdos:hover{
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+  }
+  .pngtres:hover{
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+  }
+  #pngcinco:hover{
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+  }
+  #pngseis:hover{
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+  }
+  #pngsiete:hover{
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+  }
+#elevacion:hover{
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+#pl:hover{
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+#penegedos:hover{
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+#penege:hover{
+    filter: saturate(180%);
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+#zz:hover{
+    transform: translateX(20px);
+    transition: transform 0.3s ease-out; 
+}
+#od:hover{
+    transform: translateX(20px);
+    transition: transform 0.3s ease-out; 
+}
+#li:hover{
+    transform: translateX(20px);
+    transition: transform 0.3s ease-out; 
+}
+#ado:hover{
+    transform: translateX(20px);
+    transition: transform 0.3s ease-out; 
+}
+#a:hover{
+    transform: translateX(20px);
+    transition: transform 0.3s ease-out; 
 }
