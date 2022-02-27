@@ -1,3 +1,4 @@
+
 #navbaaar{
 
     display: flex;
@@ -73,10 +74,107 @@
 #informacion{
   text-align: center;
   margin-top: 400px;
+  margin-bottom: 200px;
   font-size: 100px;
   font-family:MS PGothic;
   color: #35858B;
+
 }
+
 .chatarra img{
-  width: 50%;
+  width: 700px;
+  display: flex;
+  float: left;
+  margin-right: 70px;
+  margin-left: 40px;
+  border-radius: 50px;
+}
+
+.chatarra p{
+  font-size: 60px;
+  font-family:MS PGothic ;
+  color: #4FBDBA;
+  
+}
+.saludable{
+  margin-left: 100px;
+}
+.saludable img{
+  width: 700px;
+  display: flex;
+  float: right;
+  margin-right: 70px;
+  margin-left: 40px;
+  border-radius: 50px;
+}
+.saludable p{
+  font-size: 60px;
+  font-family:MS PGothic ;
+  color: #4FBDBA;
+  
+}
+
+.ejercicio img{
+  width: 700px;
+  display: flex;
+  float: left;
+  margin-right: 70px;
+  margin-left: 40px;
+  border-radius: 50px;
+}
+.ejercicio{
+  font-size: 60px;
+  font-family:MS PGothic ;
+  color: #4FBDBA;
+}
+
+.piedepagina{
+  margin-top: 90px;
+  width: 100%;
+  background-color: #072227;
+  
+}
+.piedepagina .grupo1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+.piedepagina .grupo1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.piedepagina .grupo1 .box figure img{
+  width: 250px;
+}
+.piedepagina .grupo1 .box h2{
+  color: #35858B;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.piedepagina .grupo1 .box p{
+  color: #4FBDBA;
+  margin-bottom: 10px;
+}
+.piedepagina .grupo1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #35858B;
+  margin-right: 10px;
+  background-color:#4FBDBA ;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 300ms ease;
+}
+.piedepagina .grupo1 .red-social a:hover{
+  color: #072227;
 }
