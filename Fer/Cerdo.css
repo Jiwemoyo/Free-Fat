@@ -1,0 +1,49 @@
+#subtitulos{
+    font-size: 30px;
+    text-align: center;
+}
+.generico{
+    float: initial;
+    margin-top: -20px;
+}
+.cerdito{
+    display: block;
+    margin: 0px auto;
+    width: 400px;
+}
+#Cerdoo{
+    display: block;
+    margin: 0px auto;
+}
+.comida{
+    text-align: center;
+    margin-left:500px;
+    margin-bottom: 50px;
+    padding: 40px;
+    border:  2px solid black;
+}
+.ti1{
+    text-align: center;
+}
+.ti2{
+    text-align: center;
+}
+.ti3{
+    text-align: center;
+}
+.ti4{
+    text-align: center;
+}
+.ti5{
+    text-align: center;
+}
+.ti6{
+    text-align: center;
+}
+.ti7{
+    text-align: center;
+}
+.ti8{
+    text-align: center;
+}
+
