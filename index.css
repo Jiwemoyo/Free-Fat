@@ -1,3 +1,4 @@
+
 #navbaaar{
 
     display: flex;
@@ -73,10 +74,57 @@
 #informacion{
   text-align: center;
   margin-top: 400px;
+  margin-bottom: 200px;
   font-size: 100px;
   font-family:MS PGothic;
   color: #35858B;
+
 }
+
 .chatarra img{
-  width: 50%;
+  width: 700px;
+  display: flex;
+  float: left;
+  margin-right: 70px;
+  margin-left: 40px;
+  border-radius: 50px;
 }
+
+.chatarra p{
+  font-size: 60px;
+  font-family:MS PGothic ;
+  color: #4FBDBA;
+  
+}
+.saludable{
+  margin-left: 100px;
+}
+.saludable img{
+  width: 700px;
+  display: flex;
+  float: right;
+  margin-right: 70px;
+  margin-left: 40px;
+  border-radius: 50px;
+}
+.saludable p{
+  font-size: 60px;
+  font-family:MS PGothic ;
+  color: #4FBDBA;
+  
+}
+
+.ejercicio img{
+  width: 700px;
+  display: flex;
+  float: left;
+  margin-right: 70px;
+  margin-left: 40px;
+  border-radius: 50px;
+}
+.ejercicio{
+  font-size: 60px;
+  font-family:MS PGothic ;
+  color: #4FBDBA;
+}
+
