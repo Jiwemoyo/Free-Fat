@@ -185,3 +185,51 @@
 .piedepagina .grupo1 .red-social a:hover{
   color: #072227;
 }
+#imagen:hover{
+  filter: saturate(180%);
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+#cinco:hover{
+  filter: saturate(180%);
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+#frase:hover{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+  transition: 5s;
+}
+#uno:hover{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+  transition: 5s;
+}
+#dos:hover{
+  transform: translateY(20px);
+  transition: transform 0.3s ease-out;
+}
+#tres:hover{
+  transform: translateY(20px);
+  transition: transform 0.3s ease-out;  
+}
+#calorias:hover{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+  transition: 2s;
+}
+#trotar:hover{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+  transition: 2s;
+}
+#saltando:hover{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+  transition: 2s;
+}
+#sentadillas:hover{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+  transition: 2s;
+}
+#cardio:hover{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+  transition: 2s;
+}
+#correr:hover{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+  transition: 2s;
+}
