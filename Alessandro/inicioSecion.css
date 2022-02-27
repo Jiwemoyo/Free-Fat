@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.contenedor{
+    min-height: calc(100vh-15px -250px
+    );
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    border: 5px solid rgb(53, 133, 139,0.1);
+    background-color: #fff;
+    margin-top: 150px;
+    margin: auto;
+    width: 500px;
+    margin-top: 150px;
+    border-radius: 50px;
+}
+.titulo{
+    text-align: center;
+    color: #4FBDBA;
+    font-size: 20px;
+}
+.titulo img{
+    width: 100px;
+    margin-top: 30px;
+}
+
+input[type="email"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+.input_contenedor{
+    margin-bottom: 15px;
+    border: 2px solid rgb(53, 133, 139,0.5);
+    border-radius: 50px;
+    
+    
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #35858B;
+    opacity: 50%;
+}
+
+::placeholder{
+    color: #35858B;
+    opacity: 50%;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    background-color: #4FBDBA;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #35858B;
+}
+
+.parraform{
+    color: #35858B;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: #4FBDBA;
+    font-weight: 600;
+}
+
+.link:hover{
+    color: #35858B;
+}
+
+
+/*::::Pie de pagina*/
+.piedepagina{
+    margin-top: 143px;
+    width: 100%;
+    background-color: #072227;
+    
+}
+.piedepagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.piedepagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.piedepagina .grupo1 .box figure img{
+    width: 250px;
+}
+.piedepagina .grupo1 .box h2{
+    color: #35858B;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.piedepagina .grupo1 .box p{
+    color: #4FBDBA;
+    margin-bottom: 10px;
+}
+.piedepagina .grupo1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #35858B;
+    margin-right: 10px;
+    background-color:#4FBDBA ;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 300ms ease;
+}
+.piedepagina .grupo1 .red-social a:hover{
+    color: #072227;
+}
