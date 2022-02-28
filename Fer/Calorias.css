@@ -1,82 +1,104 @@
+
 .titulo{
     text-align: center;
     font-size: 40px;
-    font-family: cursive;
-    padding-top: 30px;
-    color: rgb(127, 187, 255);
-    padding-top: -30px;
+    font-family: Lucida Calligraphy;
+    padding-top: 60px;
+    color: rgb(255, 255, 255);
+    background-color: #072227;
+    margin-top: 150px;
+    margin-bottom: 140px;
+    padding: 3px 10px;
+    border: #107a8d 5px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 .buscar{
     text-align: center;
 }
 .Subtitulos{
     text-align: center;
-    padding: 40px;
-    font-family: cursive;
+    font-family: Lucida Calligraphy;
     font-size: 40px;
-    color: blue;
-    border-bottom:  2px solid black;
-    padding: -20px;
+    color: rgb(255, 255, 255);
+    background-color: #072227;
+    margin-top: 150px;
+    margin-bottom: 140px;
+    padding: 3px 10px;
+    border: #107a8d 5px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
+
 .img1{
     width: 240px;
     height: 250px;
-    border: 4px solid black;
+    border: 4px solid #107a8d;
     margin-left: 250px;
     float: left;
     border-radius: 20px;
+    cursor: pointer;
+    filter: blur(5px);
 }
 .img1:hover{
-    filter: blur(5px);
+    filter: none;
 }
 .img2{
     width: 240px;
     height: 250px;
     float: left;
     margin-left: 100px;
-    border: 4px solid black;
+    border: 4px solid #107a8d;
     border-radius: 20px;
+    cursor: pointer;
+    filter: blur(5px);
 }
 .img2:hover{
-    filter: blur(5px);
+    filter: none;
 }
 .img3{
     width: 200px;
     height: 190px;
     float: left;
     margin-left: 100px;
-    border: 4px solid black;
+    border: 4px solid #107a8d;
     padding: 30px;
     border-radius: 20px;
+    cursor: pointer;
+    filter: blur(5px);
 }
 .img3:hover{
-    filter: blur(5px);
+    filter: none;
 }
 .img4{
     width: 240px;
     height: 250px;
     margin-left: 250px;
     margin-top: 90px;
-    border: 4px solid black;
+    border: 4px solid #107a8d;
     border-radius: 20px;
+    cursor: pointer;
+    filter: blur(5px);
 }
 .img4:hover{
-    filter: blur(5px);
+    filter: none;
 }
 .img5{
     width: 190px;
     height: 200px;
     margin-left: 90px;
     margin-top: 42px;
-    border: 4px solid rgb(0, 0, 0);
+    border: 4px solid #107a8d;
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 10px;
     border-radius: 20px;
+    cursor: pointer;
+    filter: blur(5px);
 
 }
 .img5:hover{
-    filter: blur(5px);
+    filter: none;
 }
 .img6{
     width: 190px;
@@ -84,66 +106,92 @@
     float: right;
     margin-right: 100px;
     margin-top: 90px;
-    border: 4px solid black;
+    border: 4px solid #107a8d;
     padding: 25px;
     border-radius: 20pxs;
+    cursor: pointer;
+    filter: blur(5px);
 }
 .img6:hover{
-    filter: blur(5px);
+    filter: none;
 }
 .cerdo{
     font-size: 25px;
     color: white;
-    background-color: black;
+    background-color: #0f535f;
     float: left;
     margin-top: -640px;
     margin-left: 280px;
     padding: 10px;
+    cursor: pointer;
+}
+.cerdo:hover{
+    background-color: #6bc7f1;
 }
 .hamburguesa{
     font-size: 25px;
     color: white;
-    background-color: black;
+    background-color: #0f535f;
     float: left;
     margin-top: -640px;
     margin-left: 640px;
     padding: 10px;
+    cursor: pointer;
+}
+.hamburguesa:hover{
+    background-color: #6bc7f1;
 }
 .helado{
     font-size: 25px;
     color: white;
-    background-color: black;
+    background-color: #0f535f;
     float: left;
     margin-top: -640px;
     margin-left: 1020px;
     padding: 10px;
+    cursor: pointer;
+}
+.helado:hover{
+    background-color: #6bc7f1;
 }
 .papita{
     font-size: 25px;
     color: white;
-    background-color: black;
+    background-color: #0f535f;
     float: left;
     margin-top: -300px;
     margin-left: 280px;
     padding: 10px;
+    cursor: pointer;
+}
+.papita:hover{
+    background-color: #6bc7f1;
 }
 .pizza{
     font-size: 25px;
     color: white;
-    background-color: black;
+    background-color: #0f535f;
     float: left;
     margin-top: -300px;
     margin-left: 680px;
     padding: 10px;
+    cursor: pointer;
+}
+.pizza:hover{
+    background-color: #6bc7f1;
 }
 .pollo{
     font-size: 25px;
     color: white;
-    background-color: black;
+    background-color: #0f535f;
     float: left;
     margin-top: -300px;
     margin-left: 980px;
     padding: 10px;
+    cursor: pointer;
+}
+.pollo:hover{
+    background-color: #6bc7f1;
 }
 
 main {
@@ -151,11 +199,11 @@ main {
 	padding: 0;
 	background: black;
 }
-
+/*Aqui va lo de buscar*/
 .container {
 	position: absolute;
-	left: 48%;
-	top: 24%;
+	left: 50%;
+	top: 45%;
 	transform: translate(-50%,-50%);
 	padding: 8px;
 }
@@ -169,12 +217,12 @@ input {
 	color: #000;
 	border-radius: 50px;
 	font-size: 20px;
-	border: 1px solid #6bc7f1;
+	border: 1px solid #1e9eda;
 	transition: all .7s ease;
 }
 
 ::placeholder {
-	color: grey;
+	color: rgb(0, 0, 0);
 }
 
 .btn {
@@ -183,19 +231,17 @@ input {
 	top: 0px;
 	width: 80px;
 	height: 80px;
-	background: #7d60ff;
+	background: #0f535f;
 	line-height: 80px;
 	border-radius: 50%;
 	text-align: center;
 	cursor: pointer;
-	transition: .5s;
 }
 
 .btn i {
 	font-size: 25px;
 	color: white;
 	line-height: 80px;
-	transition: all .7s ease;
 }
 
 .container:hover input {
@@ -207,5 +253,106 @@ input {
 }
 
 .btn:hover{
-	background: #53c7fd;
+	background: #1192ce;
+}
+/*Aqui va lo de buscar*/
+ #navbaaar{
+
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #072227;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+    z-index: 10;
+      
+}
+
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+}
+
+  
+  .nav-list a {
+    display: block;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    width: 15vw;
+    font-family: Lucida Calligraphy;
+    text-align: center;
+  }
+  
+  .nav-list a:hover {
+    background: #4FBDBA
+
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+      text-decoration: none;
+      width: 100px
+  }
+  
+ #logo {
+      margin-right: 450px;
+      width: 125px;
+      height: 65px;
+      margin-top: 10px;
+  }
+  .piedepagina{
+    margin-top: 81px;
+    width: 100%;
+    background-color: #072227;
+    
+}
+.piedepagina .grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.piedepagina .grupo1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.piedepagina .grupo1 .box figure img{
+    width: 250px;
+}
+.piedepagina .grupo1 .box h2{
+    color: #35858B;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.piedepagina .grupo1 .box p{
+    color: #4FBDBA;
+    margin-bottom: 10px;
+}
+.piedepagina .grupo1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #35858B;
+    margin-right: 10px;
+    background-color:#4FBDBA ;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 300ms ease;
+}
+.piedepagina .grupo1 .red-social a:hover{
+    color: #072227;
 }
