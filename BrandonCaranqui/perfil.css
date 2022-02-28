@@ -1,3 +1,4 @@
+
 #foto{
     width: 250px;
     height: 250px;
@@ -6,6 +7,7 @@
     margin: 50px;
     background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-blanco_23-2148810113.jpg?size=626&ext=jpg&ga=GA1.2.1587997492.1641772800);
     margin-top: 100px;
+    
 }
 
 #fotojpg {
@@ -322,6 +324,7 @@ h1 {
     color: #35858B;
     margin-bottom: 25px;
     font-size: 20px;
+    margin-left: 50px;
 }
 .piedepagina .grupo1 .box p{
     color: #4FBDBA;
