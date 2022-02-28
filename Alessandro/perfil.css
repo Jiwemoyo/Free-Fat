@@ -67,8 +67,9 @@
     margin-top: 80px;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
     text-align: center;
-    height: 500px;
+    height: 400px;
     padding: 12px;
     background-image: linear-gradient(#AEFEFF,#072227);
 }
@@ -117,18 +118,18 @@ h2{
 
 
 h3{
-    padding: 30px;
+  padding-left: 20px;
    font-size: 50px; 
    color: #4FBDBA;
 }
 p{
-    padding: 30px;
+    padding:20px ;
     font-size: 25px;
     color: #072227;
 }
 .sobreti{
     border: 6px solid #4FBDBA;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 50px;
@@ -139,4 +140,12 @@ p{
 }
 .social li:hover{
   background-color: #072227;
+  
+}
+
+
+.rutin{
+  padding-left: 200px !important;
+  padding-right: 200px !important;
+  margin: 0 !important;
 }
