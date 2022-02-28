@@ -73,10 +73,10 @@
 
 #informacion{
   text-align: center;
-  margin-top: 400px;
+  margin-top: 0;
   margin-bottom: 200px;
   font-size: 100px;
-  font-family:MS PGothic;
+  font-family:Lucida Calligraphy;
   color: #35858B;
 
 }
@@ -108,7 +108,7 @@
   border-radius: 50px;
 }
 .saludable p{
-  font-size: 60px;
+  font-size: 50px;
   font-family:MS PGothic ;
   color: #4FBDBA;
   
@@ -177,4 +177,8 @@
 }
 .piedepagina .grupo1 .red-social a:hover{
   color: #072227;
+}
+
+.fotoejer{
+  text-align: center;
 }
