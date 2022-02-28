@@ -13,7 +13,9 @@
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-
+.buscar{
+    text-align: center;
+}
 .Subtitulos{
     text-align: center;
     font-family: Lucida Calligraphy;
@@ -102,7 +104,7 @@
     width: 190px;
     height: 200px;
     float: right;
-    margin-right: 370px;
+    margin-right: 215px;
     margin-top: 90px;
     border: 4px solid #107a8d;
     padding: 25px;
@@ -198,62 +200,60 @@ main {
 	background: black;
 }
 /*Aqui va lo de buscar*/
-.buscador{
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%,50%);
-    background-color: rgb(50, 137, 195);
-    height: 40px;
-    border-radius: 40px;
-    padding: 10px; 
+.container {
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	transform: translate(-50%,-50%);
+	padding: 8px;
 }
-.buscador:hover{
-    background-color: rgb(0, 153, 255);
+
+input {
+	outline: none;
+	box-sizing: border-box;
+	height: 60px;
+	width: 0px;
+	padding: 0 20px;
+	color: #000;
+	border-radius: 50px;
+	font-size: 20px;
+	border: 1px solid #6bc7f1;
+	transition: all .7s ease;
 }
-.search-btn{
-    color: rgb(0, 153, 255);
-    float: right;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background-color: rgb(50, 137, 195);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+::placeholder {
+	color: rgb(0, 0, 0);
 }
-.search-btn:hover{
-    background: white;
+
+.btn {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 80px;
+	height: 80px;
+	background: #0f535f;
+	line-height: 80px;
+	border-radius: 50%;
+	text-align: center;
+	cursor: pointer;
 }
-.lupa{
-    width: 35px;
+
+.btn i {
+	font-size: 25px;
+	color: white;
+	line-height: 80px;
 }
-.buscador-texto{
-    border: none;
-    background: none;
-    outline: none;
-    float: left;
-    padding: 0;
-    color: white;
-    font-size: 16px;
-    transition: 0.4s;
-    line-height: 40px;
-    width: 240px;
+
+.container:hover input {
+	width: 350px;
 }
-.buscador-texto:hover{
-    background-color: rgb(62, 168, 218);
-   
+
+.container:hover i{
+	transform: rotate(-360deg);
 }
-.generico{
-    float: initial;
-    margin-top: -20px;
-    color: rgb(255, 255, 255);
-    background-color: #072227;
-    margin-bottom: 20px;
-    padding: 3px 10px;
-    border: #107a8d 5px solid;
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+
+.btn:hover{
+	background: #1192ce;
 }
 /*Aqui va el inicio de la pagina*/
  #navbaaar{
@@ -306,7 +306,8 @@ main {
       height: 65px;
       margin-top: 10px;
   }
-/*Aqui va lo del footer o pie de pagina*/
+/*Aqui va lo del footer
+
   .piedepagina{
     margin-top: 81px;
     width: 100%;
