@@ -56,7 +56,7 @@ input[type="password"]{
     color: #35858B;
     opacity: 50%;
 }
-.button{
+/*.button{
     border: none;
     width: 100%;
     color: white;
@@ -65,6 +65,22 @@ input[type="password"]{
     padding: 15px;
     border-radius: 50px;
     cursor: pointer;
+}
+*/
+.boton{
+    text-align: center;
+    margin: 25px;
+    
+}
+.contenedor .button{
+    text-decoration: none;
+    background-color: #4FBDBA;
+    padding: 15px;
+    border-radius: 50px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    cursor: pointer;
+    
 }
 .button:hover{
     background-color: #35858B;
