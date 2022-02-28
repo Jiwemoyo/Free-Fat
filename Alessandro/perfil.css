@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.header{
+    text-align: center;
+    height: 300px;
+    padding: 12px;
+    background-image: linear-gradient(#AEFEFF,#072227);
+}
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+.username{
+    font-size: 18px;
+    margin-top: 12px;
+    color: #AEFEFF;
+}
+.social{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+
+}
+.social li{
+    display: inline-block;
+    margin: 5px;
+}
+a{
+    text-decoration: none;
+}
