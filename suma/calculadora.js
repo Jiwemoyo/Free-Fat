@@ -1,4 +1,4 @@
-
+function calorias() {
 	var cal = new Number();
 	let calorias = document.getElementById("cal").value
 	//document.write("Cuantas calorias consumiste",'<BR/>');
@@ -31,3 +31,5 @@
 		}
 	}
 
+}
+	
