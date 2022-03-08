@@ -726,3 +726,28 @@
     transform: translateX(20px);
     transition: transform 0.3s ease-out; 
 }
+#titulouno{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+}
+#titulodos{
+    right: 470px;
+    font-size: 30px;
+    font-weight: bold;  
+}
+#titulotres{
+    right: 470px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#titulocuatro{
+    right: 470px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#titulocinco{
+    right: 470px;
+    font-size: 30px;
+    font-weight: bold; 
+}
