@@ -191,6 +191,7 @@
   font-size: 100px;
   font-family: Lucida Calligraphy;
   color: #35858B;
+
 }
 #coment{
   width: 800px;
@@ -226,4 +227,48 @@
   left: 950px;
   bottom: -3000px;
 
+}
+
+#users {
+  font-size: 50px;
+  font-family: MS PGothic;
+  margin-left: 50px;
+  margin-top: 20px;
+
+}
+
+#deb {
+  background-color: #358f8c;
+  border-radius: 20px;
+  width: 700px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  font-family: MS PGothic;
+  padding: 20px;
+  color: white;
+}
+
+#aqui {
+  background-color: #358f8c;
+  border-radius: 20px;
+  width: 700px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  font-family: MS PGothic;
+  padding: 20px;
+  color: white;
+}
+
+#agg {
+  background-color: #358f8c;
+  border-radius: 20px;
+  width: 700px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  font-family: MS PGothic;
+  padding: 20px;
+  color: white;
 }
