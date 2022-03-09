@@ -26,5 +26,7 @@ form.addEventListener("submit", e=>{
     }
     if(entrar=true){
         parrafo.innerHTML= warnings
+    }else{
+        parrafo.innerHTML= "Enviado"
     }
 })
