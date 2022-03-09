@@ -218,3 +218,12 @@
   cursor: pointer;
   background-color: rgb(87, 226, 226);
 }
+
+.pera{
+  width: 400px;
+  height: 290px;
+  position: absolute;
+  left: 950px;
+  bottom: -3000px;
+
+}
