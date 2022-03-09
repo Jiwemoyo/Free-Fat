@@ -182,3 +182,27 @@
 .fotoejer{
   text-align: center;
 }
+#comentarios{
+  margin-left: 50px;
+  margin-top: 200px;
+}
+
+.titulin{
+  font-size: 100px;
+  font-family: Lucida Calligraphy;
+  color: #35858B;
+}
+#coment{
+  width: 800px;
+  height: 50px;
+  border: none;
+  background-color: #4FBDBA;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: #072227;
+}
+
+.agregar{
+  margin-left: 60px;
+}
