@@ -221,11 +221,12 @@
 }
 
 .pera{
-  width: 400px;
-  height: 290px;
+  width: 500px;
+  height: 400px;
   position: absolute;
-  left: 950px;
-  bottom: -3000px;
+  left: 860px;
+  top: 3550px;
+
 
 }
 
@@ -275,4 +276,8 @@
 
 #user {
   font-size: 20px;
+}
+
+.perfiluser{
+  color: black;
 }
