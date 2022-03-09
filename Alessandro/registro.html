@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/ce60eb93cd.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <form action="" class="formulario">
+    <form action="" class="formulario" id="form">
         <div class="titulo">
             <img src="/multimedia/icono.png" alt="">
             <h1>Registrate</h1>
@@ -20,21 +20,22 @@
             <div class="input_contenedor">
                 
                 <i class="fa-solid fa-user icon"></i>
-                <input type="text" placeholder="Nombre" required>
+                <input type="text" placeholder="Nombre"  id="name">
             </div>
             
             <div class="input_contenedor">
                 
                 <i class="fa-solid fa-envelope icon"></i>
-                <input type="email" placeholder="Correo electronico" required>
+                <input type="email" placeholder="Correo electronico"  id="email">
             </div>
             <div class="input_contenedor">
                 
                 <i class="fa-solid fa-key icon"></i>
-                <input type="password" placeholder="Contraseña" required>
+                <input type="password" placeholder="Contraseña"  id="password">
             </div>
             
            <input type="submit" value="Registrate" class="button">
+           <p class="warnings" id="warnings"></p>
           
            <hr>
            <div class="parraform">
@@ -73,6 +74,6 @@
             </div>
             
         </footer>
-    
+    <script src="registro.js"></script>
 </body>
 </html>
