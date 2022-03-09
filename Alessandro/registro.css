@@ -138,3 +138,15 @@ input[type="text"]{
 .piedepagina .grupo1 .red-social a:hover{
     color: #072227;
 }
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #4FBDBA;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
