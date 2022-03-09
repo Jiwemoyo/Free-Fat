@@ -203,6 +203,18 @@
   color: #072227;
 }
 
-.agregar{
-  margin-left: 60px;
+#boton{
+  margin-left: 10px;
+  border-radius: 17px;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+  font-family: MS PGothic ;
+  border: none;
+  background-color: #358f8c;
+}
+
+#boton:hover{
+  cursor: pointer;
+  background-color: rgb(87, 226, 226);
 }
